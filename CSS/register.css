@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background: linear-gradient(to right, #F3E3D0, #D2C4B4);
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.register-card {
+  width: 100%;
+  max-width: 700px; /* كان 420 */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(247, 247, 247, 0.989);
+  background: white;
+  color: #81A6C6;
+    padding: 40px;
+
+}
+
+.hello{
+    color:white;
+}
+/* hover خفيف للكارد (احترافي ✨) */
+/* .register-card:hover {
+  transform: translateY(-5px);
+} */
+
+a {
+  text-decoration: none;
+    color: #81A6C6;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #AACDDC;
+  text-decoration: underline;
+}
+/* الخلفية العامة */
+body {
+  margin: 0;
+}
+
+/* الجهة اليسار */
+.left-side {
+  background: linear-gradient(to right, #81A6C6, #AACDDC);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* الكارد */
+.register-card {
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  border-radius: 20px;
+  background: white;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* الانبوت */
+.form-control {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* الزر */
+.btn-custom {
+  background-color: #81A6C6;
+  color: white;
+  border-radius: 10px;
+}
+
+.btn-custom:hover {
+  background-color: #6f94b3;
+}
+
+.alert {
+  animation: fadeIn 0.5s ease;
+}
+
+.alert.hide {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; transform: translateY(-10px); }
+}

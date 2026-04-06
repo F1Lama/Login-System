@@ -1,0 +1,59 @@
+body {
+  background: linear-gradient(to right, #F3E3D0, #D2C4B4);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  border-radius: 15px;
+    box-shadow: 0 10px 25px rgb(255, 255, 255);
+  background: white;
+    color: #81A6C6;
+}
+a {
+  text-decoration: none;
+    color: #81A6C6;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #AACDDC;
+  text-decoration: underline;
+}
+
+.btn {
+    background-color: #AACDDC;
+    color: white;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #81A6C6;
+    color: white;
+}
+
+.dash ,.dashp{
+    color: #5f411c;
+}
+
+.alert {
+  animation: fadeIn 0.5s ease;
+}
+
+.alert.hide {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeOut {
+  to { opacity: 0; transform: translateY(-10px); }
+}
