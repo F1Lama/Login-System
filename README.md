@@ -85,18 +85,15 @@ This project demonstrates user authentication, input validation, password hashin
 
 ### Register Page
 
-<img src="https://github.com/user-attachments/assets/c79bf89d-2ec8-4ed7-9380-273f2e71c833" />
-" width="600"/>
+<img src="https://github.com/user-attachments/assets/c79bf89d-2ec8-4ed7-9380-273f2e71c833" width="600"/>
 
 ### Login Page
 
-<img src="https://github.com/user-attachments/assets/ae6d9d13-17d6-4a27-8d44-ec860930dd47" />
-" width="600"/>
+<img src="https://github.com/user-attachments/assets/ae6d9d13-17d6-4a27-8d44-ec860930dd47" width="600"/>
 
 ### Dashboard
 
-<img src="https://github.com/user-attachments/assets/3d77358b-b8d4-469a-8b9c-6675effc5fa3" />
-" width="600"/>
+<img src="https://github.com/user-attachments/assets/3d77358b-b8d4-469a-8b9c-6675effc5fa3" width="600"/>
 
 ---
 
