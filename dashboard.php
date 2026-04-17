@@ -2,13 +2,11 @@
 session_start();
 include "db.php";
 
-// 1️⃣ التأكد أنه مسجل دخول
 if (!isset($_SESSION['user_id'])) {
     header("Location: login.php");
     exit();
 }
 
-// 2️⃣ جلب بيانات المستخدم من قاعدة البيانات
 $user_id = $_SESSION['user_id'];
 
 $sql = "SELECT * FROM users WHERE id = '$user_id'";
@@ -24,8 +22,8 @@ $user = $result->fetch_assoc();
 <title>Dashboard</title>
 
 <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.css">
+<link rel="stylesheet" href="CSS/variables.css">
 <link rel="stylesheet" href="CSS/main.css">
-
 </head>
 
 <body>
@@ -38,9 +36,9 @@ $user = $result->fetch_assoc();
 
         <p class='dashp'> Your Email: <?php echo $user['email']; ?></p>
 
-        <a href="logout.php" class="btn mt-3">
-            Logout
-        </a>
+        <a href="logout.php" class="btn btn-custom mt-3">
+    Logout
+</a>
 
     </div>
 
